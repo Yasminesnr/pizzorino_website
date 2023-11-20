@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAY - rent your favourit car</title>
+    <link rel="icon" href="images/logo2.png" type="image/x-icon" />
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="form.css" />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container" id="main">
+      <div class="sign-up">
+        <form>
+          <h1>Create Account</h1>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://twitter.com/x"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <p>or use your email for registration</p>
+          <input type="text" name="txt" placeholder="Name" required="" />
+          <input type="email" name="email" placeholder="Email" required="" />
+          <input
+            type="password"
+            name="pswd"
+            placeholder="Password"
+            required=""
+          />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="sign-in">
+        <form>
+          <h1>Sign in</h1>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://twitter.com/x"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <p>or use your account</p>
+          <input type="email" name="email" placeholder="Email" required="" />
+          <input
+            type="password"
+            name="pswd"
+            placeholder="Password"
+            required=""
+          />
+          <a href="#">Forgot your Password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>
+              To keep connecting with us please login with your personal info
+            </p>
+            <button id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>
+              Enter your personal details and start your academic journey with
+              us
+            </p>
+            <button id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
